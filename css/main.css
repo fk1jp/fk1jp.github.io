@@ -125,7 +125,9 @@ ul li {
 	position: fixed;
 	width: 100%;
 	z-index: 999;
+	background-color: #FFF;
 }
+
 #header .header-content {
 	margin: 0 auto;
 	max-width: 1170px;
@@ -140,8 +142,8 @@ ul li {
 	float: left;
 }
 #header.fixed {
-	background-color: #2796ad;
-	opacity: 0.9;
+	background-color: #FFF;
+	opacity: 1;
 }
 #header.fixed .header-content {
 	border-bottom: 0;
@@ -166,7 +168,7 @@ ul li {
 	display: inline-block;
 }
 .navigation a {
-	color: rgba(255, 255, 255, 0.8);
+	color: rgba(32, 32, 32, 0.8);
 	font-size: 12px;
 	font-weight: 400;
 	margin-left: 40px;
@@ -174,7 +176,8 @@ ul li {
 	text-transform: uppercase;
 }
 .navigation a:hover, .navigation a.active {
-	color: #fff;
+	color: #000;
+	font-weight: bold; 
 }
 .nav-toggle {
 	display: none;
@@ -213,7 +216,7 @@ ul li {
 	transition-property: transform;
 }
 .nav-toggle:before {
-	background-color: #ff7700;
+	background-color: #F78434;
 	-moz-transform: scale(1);
 	-ms-transform: scale(1);
 	-webkit-transform: scale(1);
@@ -224,7 +227,7 @@ ul li {
 	transition-duration: 0.3s;
 }
 .nav-toggle:after {
-	background-color: #ff7700;
+	background-color: #F78434;
 	-moz-transform: scale(0);
 	-ms-transform: scale(0);
 	-webkit-transform: scale(0);
@@ -316,7 +319,7 @@ ul li {
 	Banner
 -------------------------------------------------------------------------------*/
 .banner {
-	background-color: #2796ad;
+	background-color: #F78434;
 	min-height: 750px;
 }
 .banner-text {
@@ -633,7 +636,7 @@ ul li {
 -------------------------------------------------------------------------------*/
 .footer {
 	text-align: center;
-	background-color:#2796ad;
+	background-color:#F78434;
 }
 .footer p {
 	font-family: "Roboto", sans-serif;
